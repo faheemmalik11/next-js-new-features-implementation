@@ -1,5 +1,4 @@
 import dynamic from "next/dynamic";
-import { useState, useEffect } from "react";
 
 // import HydrationTest from "@/components/hydration"
 const HydrationTestNoSSR = dynamic(() => import("../components/hydration"), {
